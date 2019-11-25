@@ -56,18 +56,17 @@ Login Inputs
 # Inputs	Description
 Username	Account username, eg johndoe
 Password	Account password, eg password
-Signup inputs
 
-# Inputs	Description
+Signup inputs
 Username	Account username, eg johndoe
 Email	User email, eg morty@testmail.com
-Password	Account password, eg parseword
-Confirm Password	Account password, eg parseword
-Pitches inputs
+Password	Account password, eg password
+Confirm Password	Account password, eg password
 
-# Inputs	Description
+Pitches inputs
 Heading	Pitch description eg; pickup lines
 Pitch text	The actual pitch body
 Comment	A comment on the pitch
-License
+
+# License
 MIT License © 2019 Peter Kamau
