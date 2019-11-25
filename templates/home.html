@@ -1,9 +1,0 @@
-{% extends 'base.html' %}
-{% block content %}
-  {% for pitch in pitches %}
-    <h1>{{pitch.category}}</h1>
-    <p>{{pitch.content}}</p>
-    <p>{{pitch.owner}}</p>
-    <p>{{pitch.date}}</p>
-{% endfor %}
-{% endblock %}
