@@ -7,33 +7,33 @@ from pitches.models import User, Pitch
 pitches = [
     {
         'category':'Pickup Lines',
-        'content':'I think you are an angel cause you look like have fallen from the sky',
-        'owner':'Peter Kamau',
+        'content':'Are you religious? Cause you’re the answer to all my prayers.',
+        'owner':'Peter',
         'date':'2nd April 1905'
         
     },
 
       {
-        'category':'Interview Pitch',
-        'content':'I think you are an angel cause you look like have fallen from the sky',
-        'owner':'Peter Kamau',
-        'date':'2nd April 1905'
+        'category':'Elevator Pitch',
+        'content':'Let me tell you about the time I took our products all the way to the North Pole. I’m in sales. I started out selling refrigerators to moose in Canada.”',
+        'owner':'Paswell',
+        'date':'22nd March 1905'
         
     },
 
       {
         'category':'Product Pitch',
-        'content':'I think you are an angel cause you look like have fallen from the sky',
-        'owner':'Peter Kamau',
-        'date':'2nd April 1905'
+        'content':'Brightfunnel is a marketing attribution platform designed to help marketers understand the true value of their marketing touches and their impact on the revenue and buyers journey.',
+        'owner':'Ian',
+        'date':'1st July 200'
         
     },
 
       {
         'category':'Promotion Pitch',
-        'content':'I think you are an angel cause you look like have fallen from the sky',
-        'owner':'Peter Kamau',
-        'date':'2nd April 1905'
+        'content':'Promote Our business we promote yours',
+        'owner':'Becky',
+        'date':'3rd March 1998'
         
     },
 
@@ -50,7 +50,6 @@ pitches = [
 @app.route('/')
 @app.route('/home')
 def home():
-    pitches = Pitch.query.all()
     return render_template('home.html',pitches=pitches)
 
 @app.route('/about')
