@@ -8,5 +8,5 @@ app.config['SQLAlCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 db = SQLAlchemy(app)
 bcrypt = Bcrypt(app)
 
-from pitches import routes
+from pitches import routes, models
 
